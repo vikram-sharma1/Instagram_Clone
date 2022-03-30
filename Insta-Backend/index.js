@@ -3,6 +3,8 @@ const express=require("express")
 const app=express()
 
 const mongoose=require("mongoose")
+const signup=require("./Controllers/usercontroller")
+
 
 const connect=()=>{
 
@@ -14,7 +16,6 @@ const connect=()=>{
     app.use(express.json())
 
 
-    const signup=require("./Controllers/usercontroller")
 
 
     app.use("/signup",signup)
