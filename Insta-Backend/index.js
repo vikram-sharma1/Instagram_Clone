@@ -4,6 +4,8 @@ const app=express()
 
 const mongoose=require("mongoose")
 const signup=require("./Controllers/usercontroller")
+const post=require('./Controllers/postcontroller')
+const comment=require('./Controllers/commentcontroller')
 
 
 const connect=()=>{
@@ -19,6 +21,8 @@ const connect=()=>{
 
 
     app.use("/signup",signup)
+    app.use('/post',post)
+    app.use("/comment",comment)
 
 
 
