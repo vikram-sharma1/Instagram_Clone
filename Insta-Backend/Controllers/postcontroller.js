@@ -2,12 +2,12 @@
 
 const { Router } = require('express')
 const router = Router()
-
+const authmiddleware=require('../middlewares/authenticate')
 const Post=require("../Models/postmodel")
 
 
 
-router.post("",async(req,res)=>{
+router.post("",authmiddleware,async(req,res)=>{
     try{
     console.log(req.body,"req")
     const  post=await Post.create(req.body)
