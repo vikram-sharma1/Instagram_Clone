@@ -3,6 +3,9 @@
 a{
     color:black !important;
 }
+.navV{
+    padding: 5px;
+}
 
 .brand-logo{
 font-family: 'Grand Hotel', cursive;
@@ -41,4 +44,18 @@ flex: 2;
 .PicItemV{
     width: 100%;
     border-radius: 10%;
+}
+
+.home-cardV{
+    width: 40%;
+    margin: 0px auto;
+    height: max-content;
+    padding: 0% 1%;
+}
+.createPostBoxV{
+    max-width: 60%;
+    margin: 1% auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 5%;
 }
