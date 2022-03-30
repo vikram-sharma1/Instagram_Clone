@@ -5,6 +5,9 @@ a{
 }
 .navV{
     padding: 5px;
+    /* border: 1px solid black; */
+    width: 70%;
+    margin: auto;
 }
 
 .brand-logo{
@@ -45,6 +48,11 @@ flex: 2;
     width: 100%;
     border-radius: 10%;
 }
+.followBoxV{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
 
 .home-cardV{
     width: 40%;
@@ -58,6 +66,10 @@ flex: 2;
     padding: 20px;
     text-align: center;
     margin-top: 5%;
+}
+#navbarV{
+    background-color: white;
+    box-shadow: none;
 }
 .mycard{
     margin-top: 30px;

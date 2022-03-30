@@ -10,6 +10,11 @@ const Profile = () => {
                 <div>
                     <h1>Demo Name</h1>
                     <p><b>Dummy text for profile bio</b> <br />  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium nesciunt qui doloribus? Ab libero animi perferendis obcaecati corrupti officiis, neque vel tempora error, nulla, excepturi qui beatae minima possimus dolor et esse. Accusamus, quia quasi a culpa enim rerum fugit.</p>
+                    <div className="followBoxV">
+                       <h6><span>3</span>&nbsp;<span>Posts</span></h6>
+                       <h6><span>3</span>&nbsp;<span>Followers</span></h6>
+                       <h6><span>3</span>&nbsp;<span>Following</span></h6>
+                    </div>
                 </div>
             </div>
 
