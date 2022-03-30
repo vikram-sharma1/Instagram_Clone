@@ -1,5 +1,11 @@
 const express=require("express")
 
+require("dotenv").config();
+
+const { register, login } = require("./controllers/authentificationcontroller");
+
+
+
 const app=express()
 
 const mongoose=require("mongoose")
@@ -17,10 +23,11 @@ const connect=()=>{
 
     app.use(express.json())
 
+console.log(process.env.JWT_SECRET_KEY)
 
 
-
-    app.use("/signup",signup)
+    app.post("/signup",register)
+     app.post("/login",login)
     app.use('/post',post)
     app.use("/comment",comment)
 
