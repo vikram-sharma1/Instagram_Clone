@@ -1,5 +1,5 @@
 import './App.css';
-import {Navbar} from './components/Navbar'
+import {StyledNav} from './components/Navbar'
 import {Route, Routes} from 'react-router-dom'
 import {Home} from './components/screens/Home'
 import {Login} from './components/screens/Login'
@@ -10,7 +10,7 @@ import {Signup} from './components/screens/Signup'
 function App() {
   return (
       <>
-       <Navbar/>
+     <StyledNav/>
        <Routes>
           <Route exact path='/' element={<Home/>}></Route>
           <Route exact path='/login' element={<Login/>}></Route>
