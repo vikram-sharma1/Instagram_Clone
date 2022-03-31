@@ -52,10 +52,10 @@ console.log(process.env.JWT_SECRET_KEY)
 
 
 
-    app.listen("5000",async()=>{
+    app.listen(process.env.PORT ||8080,async()=>{
        try{
         await connect()
-        console.log("listening 5000")
+        console.log("listening 8080")
         }
 
         catch(err)
