@@ -3,7 +3,7 @@ const Signup = () => {
     return (
         <div className="signUpBoxV">
              <div className="rightboxVdetails">
-				 <div className="instaV">
+				 <div className="instaVS">
 					 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/800px-Instagram_logo.svg.png?20160616034027" alt=""  />
 				 </div>
                  <div>

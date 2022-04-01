@@ -185,9 +185,18 @@ margin-top: 20px;
 
 
 .signUpBoxV{
-    border: 1px solid black;
-    width: 20%;
+    /* border: 1px solid black; */
+    width: 25%;
     margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 30px;
+}
+.instaVS{
+    text-align: center;
+}
+.instaVS > img{
+    width: 85%;
+    
 }
 .signdetV{
     /* border: 1px solid black; */
